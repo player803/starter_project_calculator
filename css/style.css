@@ -1,0 +1,112 @@
+
+/* Font Style */
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+
+/*body Style */
+body {
+    background: #ffffff;
+    background: linear-gradient(#CA4293, #5B396D);
+    font-size: 22px;
+    font-family: Roboto, sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    background-color: #E99681;
+    padding: 10px 0 10px;
+    text-align: center;
+    color: #fff;
+    border-bottom: 15px solid #E28588;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+/*Main Calc Container*/
+#calculator {
+    width: 30%;
+    height: auto;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #E0D9EC;
+    padding-top: 30px;
+}
+
+/* Display */
+.display{
+    border: #ffffff solid 2px;
+    width: 80%;
+    height: 60px;
+    padding-top: 5px;
+    text-align: center;
+    float: none;
+    margin: 0 auto;
+}
+
+/* clear and delete buttons*/
+#clear {
+    border-radius: 0;
+    background-color: #f7c86e;
+    height: 50px;
+    float: right;
+    margin-right: 80px;
+}
+
+#backspace{
+    border-radius: 0;
+    background-color: #f7c86e;
+    height: 50px;
+    float: right;
+    margin-right: 80px;
+}
+
+.clearBackspace{
+    margin-top: 40px;
+    width: 100%;
+}
+
+/* numbers row */
+#numbers-row{
+    text-align: center;
+    margin-top: 30px;
+}
+
+button {
+    margin: 8px;
+    border-radius: 38px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    background-color: #ffffff;
+}
+
+button:hover {
+    background-color: #f394b2 ;
+    color: #ffffff;
+}
+
+.opp {
+    background-color: #f394b2;
+}
+
+.decimal:hover {
+    background-color: #ffffff;
+    color: #888888;
+}
+
+.operator:hover {
+    background-color: #ffffff;
+    color: #888888;    
+}
+
+.eval:hover{
+    background-color: #ffffff;
+    color: #888888;
+}
