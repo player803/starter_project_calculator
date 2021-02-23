@@ -5,7 +5,7 @@
 /*body Style */
 body {
     background: #ffffff;
-    background: linear-gradient(#1ba466, #94f1ca);
+    background: linear-gradient(#94f1ca, #1ba466);
     font-size: 22px;
     font-family: Roboto, sans-serif;
 }
@@ -66,6 +66,10 @@ h1 {
     height: 50px;
     float: right;
     margin-right: 80px;
+}
+#clear:hover {
+    background-color: khaki;
+    color: #000;
 }
 
 .clearBackspace{
