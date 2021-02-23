@@ -5,7 +5,7 @@
 /*body Style */
 body {
     background: #ffffff;
-    background: linear-gradient(#CA4293, #5B396D);
+    background: linear-gradient(#1ba466, #94f1ca);
     font-size: 22px;
     font-family: Roboto, sans-serif;
 }
@@ -17,11 +17,11 @@ html {
 /* Header */
 .header {
     text-align: center;
-    background-color: #E99681;
+    background-color: #077D3F;
     padding: 10px 0 10px;
     text-align: center;
     color: #fff;
-    border-bottom: 15px solid #E28588;
+    border-bottom: 15px solid #0E522D;
 }
 
 h1 {
@@ -48,6 +48,7 @@ h1 {
     text-align: center;
     float: none;
     margin: 0 auto;
+    background-color: #FFF;
 }
 
 /* clear and delete buttons*/
@@ -88,12 +89,13 @@ button {
 }
 
 button:hover {
-    background-color: #f394b2 ;
+    background-color: #057337;
     color: #ffffff;
 }
 
 .opp {
-    background-color: #f394b2;
+    background-color: #115c34;
+    color: #ffffff;
 }
 
 .decimal:hover {

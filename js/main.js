@@ -126,18 +126,7 @@ function backspace()
             num2 = temp2;
             flag = 1;
 
-            if(operator === 4){
-                display.innerHTML =num1 + "/" + num2;
-                
-            }else if(operator === 3){
-                display.innerHTML = num1 + "*" + num2;
-                
-            }else if(operator === 2){
-                display.innerHTML = num1 + "-" + num2;
-                
-            }else{
-                display.innerHTML = num1 + "+" + num2;   
-            }
+            setOppString();
         }//end of if
 
 }// end of function backspace
@@ -168,18 +157,7 @@ function setDecimal()
                 num2 += ".";
                 display.innerHTML = num1 + operator + num2;
 
-                if(operator === 4){
-                    display.innerHTML =num1 + "/" + num2;
-                    
-                }else if(operator === 3){
-                    display.innerHTML = num1 + "*" + num2;
-                    
-                }else if(operator === 2){
-                    display.innerHTML = num1 + "-" + num2;
-                    
-                }else{
-                    display.innerHTML = num1 + "+" + num2;   
-                }
+                setOppString();
             }
 
     }
