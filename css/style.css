@@ -12,6 +12,7 @@ body {
 
 html {
     height: 100%;
+    width: 100%;
 }
 
 /* Header */
@@ -30,7 +31,7 @@ h1 {
 
 /*Main Calc Container*/
 #calculator {
-    width: 30%;
+    width: 40rem;
     height: auto;
     margin-top: 30px;
     padding: 10px;
